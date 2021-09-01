@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_photo"
+        android:title="오늘의 포토"/>
+
+    <item
+        android:id="@+id/menu_confirm"
+        android:title="실천 인증"/>
+
+    <item
+        android:id="@+id/menu_infor"
+        android:title="환경 정보"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/clicked_pine_tree"
+        android:state_pressed="true" />
+    <item android:drawable="@mipmap/clicked_pine_tree"
+        android:state_focused="true" />
+    <item android:drawable="@mipmap/nonclicked_pine_tree" />
+</selector>

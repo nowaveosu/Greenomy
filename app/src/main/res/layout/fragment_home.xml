@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="300dp">
+
+        <View
+            android:layout_width="360dp"
+            android:layout_height="361dp"
+            android:background="@drawable/character_bg"/>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="361dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/before_tody_mission"/>
+
+        <ImageView
+            android:id="@+id/first_trash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/trash1"
+            android:visibility="visible"/>
+        <ImageView
+            android:id="@+id/second_trash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="270dp"
+            android:src="@mipmap/trash2"
+            android:visibility="visible"/>
+        <ImageView
+            android:id="@+id/third_trash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="200dp"
+            android:src="@mipmap/trash2"
+            android:visibility="visible"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="오늘의 미션"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="120dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="@drawable/green_line"/>
+
+    <CheckedTextView
+        android:id="@+id/first_chBox"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="쓰레기 줍기 한 봉지"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple">
+    </CheckedTextView>
+    <CheckedTextView
+        android:id="@+id/second_chBox"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+        android:text="용기내 챌린지 도전하기"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+    </CheckedTextView>
+    <CheckedTextView
+        android:id="@+id/third_chBox"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+        android:text="일회용 플라스틱 사용하지 않기"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+    </CheckedTextView>
+
+
+</LinearLayout>
